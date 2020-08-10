@@ -28,9 +28,9 @@ class Triangle
       
   def validate_triangle
       real_triangle = [
-        (a + b > c)
-        (b + c > a)
-        (a + c > b)
+        [a + b > c]
+        [b + c > a]
+        [a + c > b]
         ]
           
         [a, b, c].each do |side|
